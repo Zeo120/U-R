@@ -1,0 +1,22 @@
+## Plan for Project U/R
+1.Each Fn in Main should only contain Modules
+2.Each Module must have their Predefined Roles 
+3.The Roles of Module 
+a.Zeo - Tooling for Pentesting and Cybersecurity Professionals from various sources
+b.Unresitricted - Core Unrestricted (U/R) Components,Such as 
+  (i) User Interface Components
+  (ii) Core Architechture and System Design
+  (iii) Core Architechture and Data Diagrams etc.
+c.Network - Contains Networking Related Components
+d.JavaScript - Contains JavaScript related Text
+e.SQLite - DB Related Components 
+f.Privacy Policy Not Applicable cause we are not collecting any user Data
+g.Security Policy
+## Core Philosophy of Unresitricted(U/R) Browser 
+1.Unrestricted Browser U/R for short is a Non-Chromium Browser.
+2.U/R is set to run as an Open-Source Browser.
+3.U/R Will be made available only via Github and Nodejs.
+4.U/R stands as a part of ZTL (Zeo Thinking Labs) Foundation.
+5.U/R is the Project of First Experiment - 
+a.Human vs AI Writing an Autonomous Non-Chromium browser focused on Cybersecurity.
+6.It will be made available in WSL,Windows,GNU-Linux and Black-Arch Linux(Most Optimised for).
