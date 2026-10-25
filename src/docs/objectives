@@ -20,3 +20,5 @@ g.Security Policy
 5.U/R is the Project of First Experiment - 
 a.Human vs AI Writing an Autonomous Non-Chromium browser focused on Cybersecurity.
 6.It will be made available in WSL,Windows,GNU-Linux and Black-Arch Linux(Most Optimised for)
+7.Module Test is the Module that runs tests for any Syntax 
+or structural Errors.

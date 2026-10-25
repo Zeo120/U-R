@@ -28,3 +28,13 @@ if input.starts_with("https://"){
 }
 }
 //Verify the HTTPS returns the same expected results (I Dont have any Idea BTW).
+#[cfg(test)]
+mod tests {
+    use super::*;
+    #[test]
+    fn recognises_https(){
+        assert_eq!(
+            scheme("https://example.com"),
+            Ok(String::from("https")));
+    }
+}
