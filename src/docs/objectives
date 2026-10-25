@@ -1,6 +1,6 @@
 ## Plan for Project U/R
-1.Each Fn in Main should only contain Modules
-2.Each Module must have their Predefined Roles 
+1.Each Fn in Main should only contain Modules(Done)
+2.Each Module must have their Predefined Roles(Implementing) 
 3.The Roles of Module 
 a.Zeo - Tooling for Pentesting and Cybersecurity Professionals from various sources
 b.Unresitricted - Core Unrestricted (U/R) Components,Such as 
