@@ -1,0 +1,5 @@
+//Documentation for SRC Modules
+URL Parser :-
+Example URL :- https://example.com:8443/products?id=42#details
+Here We are all confused but let this make sense;
+https is called "scheme" (It is Usually Http or https Google them if you want);
