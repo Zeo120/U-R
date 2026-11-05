@@ -1,5 +1,14 @@
-//Documentation for SRC Modules
-URL Parser :-
+//Documentation for Bridge components In SRC :- 
+1.URL Parser :-
 Example URL :- https://example.com:8443/products?id=42#details
 Here We are all confused but let this make sense;
 https is called "scheme" (It is Usually Http or https Google them if you want);
+example.com is called "host*"("*'s will be explained at the End of the components)
+8443 is called "port"(usually not mentioned in real world but we are living in ideal world so why not)
+/*..../ is called "path" (Before you crashout,yes it can be absolute / relative isnt important)
+? is called "query" (Shit makes DB go Brr)
+# is called "fragment" (fragment usually tells you where tf to look at in a Page,specifically)
+URL Parser parses the URL and tells Objects where to navigate in the Internet
+in the Internet,Usually every browser has one/More Parsers,maintaining a Parser is important;
+Ideal World Usecase is this description 
+Real World applications may vary..

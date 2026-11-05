@@ -10,12 +10,12 @@ pub fn init() {
 //query: Usually starts with ?(Shit makes DB goes Brr);
 //fragment: Generally '#',Usually a Section of same text;
 pub struct Url {
-    pub scheme: String,
-    pub host:   String,
-    pub port:Option<u16>,
-    pub path:String,
-    pub query:Option<String>,
-    pub fragment:Option<String>,
+    pub scheme: String, //Declares scheme as String (Usually http/https);
+    pub host:   String, //Declares host as String (Usuall IP addr (ss -tuln IFYKYK));
+    pub port:Option<u16>,//Declares Post [Ex: 192.69.6969":69"]*Everything after "" is port
+    pub path:String,//Declares Path as string;*Usually http://192.69.6969:69/home/ztlfoundation*usually starts from Root
+    pub query:Option<String>,//Declares Option as String;//Declares Query as a String
+    pub fragment:Option<String>,//Declares fragment as String;//
 }
 //Scheme Parsing
 pub fn  scheme(input: &str) -> Result <String,String> {
