@@ -103,7 +103,7 @@ The following describes the intended architecture; individual modules may still 
 | Module | Intended Responsibility |
 |---|---|
 | `Zeo` | Cybersecurity and penetration-testing tools from various sources |
-| `Unrestriced` | Core browser architecture, user interface, system design, and technical diagrams |
+| `Unrestricted` | Core browser architecture, user interface, system design, and technical diagrams |
 | `Network` | Networking and communication components |
 | `JavaScript` | JavaScript-related components and integration |
 | `SQLite` | Database-related components and local persistence |
@@ -145,7 +145,7 @@ U/R aims to:
 
 Visiting external websites still involves network communication, and those websites may receive connection metadata and other information.
 
-See [PRIVACY.md](PRIVACY.md) for the project's privacy policy.
+See the [Privacy Policy](src/docs/privacypolicy.md) for details.
 
 ## Security
 
@@ -163,7 +163,7 @@ Potential areas of focus include:
 
 U/R is experimental software. Its security properties depend on the features implemented and tested in each version.
 
-See [SECURITY.md](SECURITY.md) for the security policy and vulnerability-reporting guidance.
+See the [Security Policy](src/docs/Security%20Policy.md) for the security policy and vulnerability-reporting guidance.
 
 ## Development Status
 
@@ -210,11 +210,13 @@ An illustrative structure is:
 U-R/
 ├── Cargo.toml
 ├── Cargo.lock
+├── License.md
 ├── README.md
-├── PRIVACY.md
-├── SECURITY.md
 ├── src/
-│   └── main.rs
+│   ├── main.rs
+│   └── docs/
+│       ├── privacypolicy.md
+│       └── Security Policy.md
 └── learning/
     └── Zeo.rs
 ```
@@ -270,13 +272,11 @@ Before contributing:
 4. Document security-relevant behavior and limitations.
 5. Avoid introducing unnecessary data collection or external dependencies.
 
-For security issues, consult [SECURITY.md](SECURITY.md).
+For security issues, consult the [Security Policy](src/docs/Security%20Policy.md).
 
 ## License
 
-A license has not yet been specified in this README.
-
-Until a license is added to the repository, do not assume that the source code is available for unrestricted reuse, redistribution, or modification.
+U/R is released under the MIT License. See [License.md](License.md) for the full text.
 
 ## Project
 
